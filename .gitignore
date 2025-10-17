@@ -72,3 +72,6 @@ Desktop.ini
 *.dbmdl
 *.bak
 *.log
+
+# Exercism atleast for now
+exercism/
