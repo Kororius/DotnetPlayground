@@ -1,0 +1,74 @@
+# Visual Studio / .NET general
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+bin/
+obj/
+out/
+artifacts/
+*.log
+*.tmp
+
+# Rider / ReSharper
+*.sln.iml
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet
+packages/
+*.nupkg
+.nuget/packages/
+
+# Visual Studio build results and symbols
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.ipdb
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish and deployment
+*.publishsettings
+*.azurePubxml
+*.zip
+*.tar.gz
+
+# User-specific / environment
+# Ignore environment-specific appsettings but keep the default appsettings.json
+appsettings.*.json
+!appsettings.json
+secrets.json
+.env
+
+# Launch settings (optional: usually can be committed)
+# If you prefer to keep launchSettings.json, remove the next line
+Properties/launchSettings.json
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Misc
+*.userprefs
+*.dbmdl
+*.bak
+*.log
