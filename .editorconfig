@@ -1,0 +1,6 @@
+root = true
+
+[*.cs]
+dotnet_diagnostic.CA1303.severity = warning
+dotnet_diagnostic.SA1101.severity = warning
+# set IDE0017, etc. to suggestion / warning / none as desired

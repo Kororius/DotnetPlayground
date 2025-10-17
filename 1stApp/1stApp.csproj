@@ -5,6 +5,14 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>_1stApp</RootNamespace>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
   </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Use .NET analyzers (private assets prevents them from flowing to consumers) -->
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.*" PrivateAssets="all" />
+    <!-- If you previously added StyleCop.Analyzers and it caused restore to fail, remove that PackageReference -->
+    <!-- <PackageReference Include="StyleCop.Analyzers" Version="2.*" PrivateAssets="all" /> -->
+  </ItemGroup>
 
 </Project>
